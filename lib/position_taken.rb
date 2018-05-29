@@ -4,5 +4,5 @@ def position_taken?(board, index)
   if position == " " || position == "" || position == nil
     return false
   end
-  true
+  return true
 end
